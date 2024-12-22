@@ -1,0 +1,117 @@
+.footer {
+    background: #f7f7f7;
+    padding: 8vw 0 0;
+}
+.footer__rows {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+.footer-left {
+    width: 25%;
+}
+.footer__description {
+}
+.footer__logo {
+}
+.logo__image {
+}
+.footer__text {
+    font-weight: 500;
+    font-size: 0.875;
+    line-height: 1.5;
+    margin: 1.875rem 0 0;
+}
+.footer__columns {
+    display: flex;
+    gap: 8vw;
+    justify-content: space-between;
+}
+.footer__column {
+    flex: 1 1 33%;
+}
+.footer__subtitle {
+    font-family: "DM SANS";
+    font-size: 1rem;
+    color: #f6973f;
+}
+.footer__list {
+    display: flex;
+    flex-direction: column;
+}
+.footer__item {
+    margin: 1.25rem 0 0;
+}
+
+.footer__social {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__icon {
+    max-width: 1.25rem;
+}
+.footer__link {
+    color: #1e1e1e;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.footer__link:hover {
+    color: #f6973f;
+    transition: linear 0.3s;
+    -webkit-transition: linear 0.3s;
+    -moz-transition: linear 0.3s;
+    -ms-transition: linear 0.3s;
+    -o-transition: linear 0.3s;
+}
+
+.footer__policies {
+    display: flex;
+    margin: 7vh 0 1rem;
+    justify-content: space-between;
+    font-family: "DM SANS";
+}
+.footer__copyright {
+    color: #1e2833;
+    font-size: 0.975rem;
+}
+.footer__policy {
+    font-size: 0.975rem;
+    display: flex;
+    gap: 2.5rem;
+}
+.privacy__link {
+    color: #1e1e1e;
+}
+.footer__terms {
+}
+.terms__link {
+    color: #1e1e1e;
+}
+.footer__privacy {
+}
+
+@media (max-width: 768px) {
+    .footer-left {
+        width: 100%;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    .footer__rows {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer__column {
+        flex: 1 1 50%;
+    }
+    .footer__policies {
+        gap: 1.25rem;
+        flex-wrap: wrap;
+    }
+}

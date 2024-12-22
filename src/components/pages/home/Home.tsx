@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 
 export const Home = () => {
     return (
@@ -124,7 +124,6 @@ export const Home = () => {
                                 <div className="column__image">
                                 </div>
                                 <div className="column__man">
-                                    <div className="column__name">
                                         Ibuk Sukijan
                                     </div>
                                     <div className="column__job">

@@ -1,0 +1,51 @@
+.about {
+    background: url("../../../img/provide.png") center/cover no-repeat;
+    padding: 10rem 0;
+}
+.about__container {
+}
+.services {
+}
+.services__columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.services__column {
+    display: flex;
+    flex: 1 1 33.333%;
+}
+.services__attend {
+    color: white;
+}
+.attend__logo {
+}
+.attend__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0 0;
+}
+.attend__description {
+    margin: 0.35rem 0 0;
+}
+.attend__content {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.services__image {
+}
+.service__picture {
+    width: 45vw;
+}
+
+@media (max-width: 480px) {
+    .attend__title {
+        font-size: 1rem;
+    }
+    .attend__description {
+        margin: 1rem 0 0;
+    }
+    .attend__content {
+        font-size: 0.75rem;
+    }
+}
