@@ -1,5 +1,9 @@
+import services from "../../../img/services__image.png";
+import delivery from "../../../img/svg/delivery.svg";
+import customer from "../../../img/svg/customer.svg";
+import returns from "../../../img/svg/returns.svg";
+import price from "../../../img/svg/price.svg";
 import "./AboutUs.css";
-
 export const AboutUs = () => {
     return (
         <div className="about">
@@ -9,6 +13,11 @@ export const AboutUs = () => {
                         <div className="services__column">
                             <div className="services__attend">
                                 <div className="attend__logo">
+                                    <img
+                                        src={delivery}
+                                        alt="Delivery"
+                                        className="attend__picture"
+                                    />
                                 </div>
                                 <h3 className="attend__title">
                                     Fast and safe delivery
@@ -24,6 +33,11 @@ export const AboutUs = () => {
                         <div className="services__column">
                             <div className="services__attend">
                                 <div className="attend__logo">
+                                    <img
+                                        src={returns}
+                                        alt="Returns"
+                                        className="attend__picture"
+                                    />
                                 </div>
                                 <h3 className="attend__title">
                                     Quick and easy returns
@@ -39,6 +53,11 @@ export const AboutUs = () => {
                         <div className="services__column">
                             <div className="services__attend">
                                 <div className="attend__logo">
+                                    <img
+                                        src={customer}
+                                        alt="Customer"
+                                        className="attend__picture"
+                                    />
                                 </div>
                                 <h3 className="attend__title">
                                     24 hour customer service
@@ -55,6 +74,11 @@ export const AboutUs = () => {
                         <div className="services__column">
                             <div className="services__attend">
                                 <div className="attend__logo">
+                                    <img
+                                        src={price}
+                                        alt="Price"
+                                        className="attend__picture"
+                                    />
                                 </div>
                                 <h3 className="attend__title">
                                     The price match is very fitting

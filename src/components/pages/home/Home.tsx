@@ -1,5 +1,8 @@
-import React from "react";
-
+﻿import React from "react";
+import Upin from "../../../img/svg/upin.svg";
+import Ibuk from "../../../img/svg/ibuk.svg";
+import Mpok from "../../../img/svg/mpok.svg";
+import star from "../../../img/svg/star.svg";
 export const Home = () => {
     return (
         <div className="home">
@@ -90,6 +93,7 @@ export const Home = () => {
                         <div className="reviews__column upin-column">
                             <div className="column__content">
                                 <div className="column__image">
+                                    <img src={Upin} alt="Bang Upin" />
                                 </div>
                                 <div className="column__man">
                                     <div className="column__name">
@@ -106,14 +110,19 @@ export const Home = () => {
                                 <div className="column__rating">
                                     <ul className="column__stars">
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                     </ul>
                                 </div>
@@ -122,8 +131,10 @@ export const Home = () => {
                         <div className="reviews__column ibuk-column">
                             <div className="column__content">
                                 <div className="column__image">
+                                    <img src={Ibuk} alt="Ibuk Sukijan" />
                                 </div>
                                 <div className="column__man">
+                                    <div className="column__name">
                                         Ibuk Sukijan
                                     </div>
                                     <div className="column__job">
@@ -137,14 +148,19 @@ export const Home = () => {
                                 <div className="column__rating">
                                     <ul className="column__stars">
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                     </ul>
                                 </div>
@@ -153,6 +169,7 @@ export const Home = () => {
                         <div className="reviews__column mpok-column">
                             <div className="column__content">
                                 <div className="column__image">
+                                    <img src={Mpok} alt="Mpok Ina" />
                                 </div>
                                 <div className="column__man">
                                     <div className="column__name">Mpok Ina</div>
@@ -167,14 +184,19 @@ export const Home = () => {
                                 <div className="column__rating">
                                     <ul className="column__stars">
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                         <li className="column__star">
+                                            <img src={star} alt="Star" />
                                         </li>
                                     </ul>
                                 </div>
