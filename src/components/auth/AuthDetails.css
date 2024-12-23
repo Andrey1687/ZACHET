@@ -1,0 +1,48 @@
+.auth__details {
+    max-width: 35rem;
+    margin: 3rem auto 0;
+    align-items: center;
+}
+.auth__description {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+    justify-content: space-between;
+}
+.auth__status {
+    line-height: 1.5;
+    margin: 0 auto;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background: wheat;
+    font-size: 1rem;
+    font-weight: 700;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.auth__button {
+    margin: 0 auto;
+    font-weight: 600;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    color: black;
+    background: #f6973f;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.auth__button:hover {
+    transition: 0.3s linear;
+    background: white;
+    color: #f6973f;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+}
